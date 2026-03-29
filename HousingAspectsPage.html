@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Page Title</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+         <img src="https://static.thenounproject.com/png/4634433-200.png" class="mr-2"><a class="navbar-brand" href="index.html">Texas and California Housing Data</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+               <li class="nav-item"><a class="nav-link" href="EconomicPage.html">Economic</a></li>
+               <li class="nav-item"><a class="nav-link" href="DemographicsPage.html">Demographics</a></li>
+               <li class="nav-item"><a class="nav-link" href="HousingAspectsPage.html">Housing</a></li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="EconomicPage.html">Economic</a><a class="dropdown-item" href="DemographicsPage.html">Demographics</a><a class="dropdown-item" href="HousingAspectsPage.html">Housing</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="index.html">Home</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container" id="bsr-wrapper">
+         <div class='my-5'></div>
+         <h1>Housing Aspects of Housing in Texas and California</h1>
+         <p>The housing aspects subset of the project will analyze the physical characteristics of the households in Texas and California. Such characteristics include the 
+            number of vehicles available for households, the number of households with a certain range of rooms, and the number of households built with specific time frames.
+         </p>
+         <div class='my-5'></div>
+         <!-- visualization 1 -->
+         <h2>Bar Chart of the Number of Houses built in a Specified Time Frame for Texas and California</h2>
+         <p>The following visualization presents a bar chart of the number of houses built during a specific time period for Texas and California:</p>
+         <embed src="barChartViz4.html" type="text/html" height = "700" width = "1000" />
+         <div class='my-5'></div>
+         <h2>Insights</h2>
+         <p>From the visualizations above, we are able to make the following insights:</p>
+         <ul>
+            <li>Texas constructed most of their houses within the 1980-1999 range while California constructed most of their houses within the 1960-1979 range.</li>
+            <li>California overall has constructed more houses than Texas.</li>
+            <li>California built more houses than Texas from earlier than 1939 to 1999.</li>
+            <li>Texas built more houses than California from 2000 to 2020 and later.</li>
+            <li>The number of houses built within both California and Texas started to decrease from 1980 to 2020 and later.</li>
+         </ul>
+          <!-- visualization 2 -->
+         <div class='my-5'></div>
+         <h2>Bar Chart of the Range of Rooms within Houses</h2>
+         <p>The following visualization presents a bar chart of the range of rooms within households in Texas and California:</p>
+         <embed src="barChartViz5.html" type="text/html" height = "700" width = "1000" />
+         <div class='my-5'></div>
+         <h2>Insights</h2>
+         <p>From the visualizations above, we are able to make the following insights:</p>
+         <ul>
+            <li>Both Texas and California have the least amount of houses with 1 room.</li>
+            <li>Texas has more houses with 8 or more rooms than California does.</li>
+            <li>Both California and Texas have the majority of their houses with 4 to 5 rooms.</li>
+            <li>California has a much more significant amount of houses with 4-5 rooms than Texas does.</li>
+            <li>California overall has more houses with various amounts of rooms than Texas does.</li>
+         </ul>
+         <!-- Visualization 3 -->
+         <div class='my-5'></div>
+         <h2>Bar Chart of the Number of Vehicles within Households</h2>
+         <p>The following visualization presents the number of vehicles available for households in Texas and California:</p>
+         <embed src="barChartViz8.html" type="text/html" height = "700" width = "1000" />
+         <div class='my-5'></div>
+         <h2>Insights</h2>
+         <p>From the visualizations above, we are able to make the following insights:</p>
+         <ul>
+            <li>California overall has more households with cars than Texas does.</li>
+            <li>Both Texas and California have the majority of their households with 2 vehicles available.</li>
+            <li>Both Texas and California have the least majority of their households with no vehicle available.</li>
+            <li>More than 5 million homeowners from both states have more than 1 vehicle available at their household.</li>
+            <li>Less than 1 million homeowners from both states have no vehicles available at their household.</li>
+         </ul>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+   </body>
+</html>

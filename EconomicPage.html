@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Page Title</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+         <img src="https://static.thenounproject.com/png/4634433-200.png" class="mr-2"><a class="navbar-brand" href="index.html">Texas and California Housing Data</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+               <li class="nav-item"><a class="nav-link" href="EconomicPage.html">Economic</a></li>
+               <li class="nav-item"><a class="nav-link" href="DemographicsPage.html">Demographics</a></li>
+               <li class="nav-item"><a class="nav-link" href="HousingAspectsPage.html">Housing</a></li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="EconomicPage.html">Economic</a><a class="dropdown-item" href="DemographicsPage.html">Demographics</a><a class="dropdown-item" href="HousingAspectsPage.html">Housing</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="index.html">Home</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container" id="bsr-wrapper">
+         <div class='my-5'></div>
+         <h1>Economic Aspects of Housing in Texas and California</h1>
+         <p>The economic subset of the project will present visualizations of economic attributes of households within California and Texas. These economic aspects include 
+            household value, household income, and the ratio of household value to household income. 
+         </p>
+         <div class='my-5'></div>
+         <!-- visualization 1 -->
+         <h2>Pie Chart Comparision of Household Values between Texas and California</h2>
+         <p>The following visualizations present pie charts of the household values of Texas and California:</p>
+         <embed src="pieChartCaliforniaViz1.html" type="text/html" height = "700" width = "1000" />
+         <embed src="pieChartTexasViz1.html" type="text/html" height = "700" width = "1000" />
+         <div class='my-5'></div>
+         <h2>Insights</h2>
+         <p>From the visualizations above, we are able to make the following insights:</p>
+         <ul>
+            <li>For the ranges of house mortgage value, California has the highest percentage in houses which are 1M + while Texas is the most between 100k to 299k.</li>
+            <li>The least for California is 50k to 99k while Texas is less than 50k.</li>
+            <li>The category that makes up the highest percentage for California(1M+) is the second smallest percentage for Texas only accounting for less than %2 of the total range of house mortgages.</li>
+            <li>California has only 3 categories combined that make up over 80% while Texas takes 4 different categories.</li>
+            <li>he trend for California is that as the house mortgage range goes up so does the total percentage that it takes up, while in Texas the house mortgage and percentage are not as strongly correlated.</li>
+         </ul>
+          <!-- visualization 2 -->
+         <div class='my-5'></div>
+         <h2>Pie Chart Comparision of Household Income Values between Texas and California</h2>
+         <p>The following visualizations present pie charts of the household income values of Texas and California:</p>
+         <embed src="pieChartCaliforniaViz2.html" type="text/html" height = "700" width = "1000" />
+         <embed src="pieChartTexasViz2.html" type="text/html" height = "700" width = "1000" />
+         <div class='my-5'></div>
+         <h2>Insights</h2>
+         <p>From the visualizations above, we are able to make the following insights:</p>
+         <ul>
+            <li>The highest percentage of yearly income for both states is 150k+.</li>
+            <li>The lowest percentage of yearly income for both states is less than or equal to 10k.</li>
+            <li>The population for California which makes at least 150k is almost 50% most likely showing that a large percentage of its population is high class.</li>
+            <li>Texas has a lot more variety outside of those making 150k+ meaning they have a larger middle class.</li>
+            <li>For both states the number of people making 50k yearly makes up less than 25% of the pie meaning they have a comparatively small lower class.</li>
+         </ul>
+         <!-- Visualization 3 -->
+         <div class='my-5'></div>
+         <h2>Pie Chart Comparision of the Ratio of Household Value to Household Income</h2>
+         <p>The following visualizations present pie charts of the ratio of the household value to the household income:</p>
+         <embed src="pieChartCaliforniaViz3.html" type="text/html" height = "700" width = "1000" />
+         <embed src="pieChartTexasViz3.html" type="text/html" height = "700" width = "1000" />
+         <div class='my-5'></div>
+         <h2>Insights</h2>
+         <p>From the visualizations above, we are able to make the following insights:</p>
+         <ul>
+            <li>The highest percentage and majority for the ratio of California is >= 4.0 meaning that nearly 2/3rds of the population own a home that is worth 4x or more of their yearly income.</li>
+            <li>Texas has the highest percentage in les than or equal to 2.0.</li>
+            <li>The second largest in Texas is >= 4.0 showing the strong polarity to either side for Texas homeowners (they either own a home that is extremely affordable or extremely unaffordable).</li>
+            <li>There is a relatively even distribution of the ratio in Texas, while California has a majority of homes that are unaffordable to the owner.</li>
+            <li>For California, the higher the ratio, the larger the percentage it took upon the pie chart, while Texas didn’t have much of a correlation.</li>
+         </ul>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+   </body>
+</html>

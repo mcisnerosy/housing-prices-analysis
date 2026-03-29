@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Page Title</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+         <img src="https://static.thenounproject.com/png/4634433-200.png" class="mr-2"><a class="navbar-brand" href="index.html">Texas and California Housing Data</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+               <li class="nav-item"><a class="nav-link" href="EconomicPage.html">Economic</a></li>
+               <li class="nav-item"><a class="nav-link" href="DemographicsPage.html">Demographics</a></li>
+               <li class="nav-item"><a class="nav-link" href="HousingAspectsPage.html">Housing</a></li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="EconomicPage.html">Economic</a><a class="dropdown-item" href="DemographicsPage.html">Demographics</a><a class="dropdown-item" href="HousingAspectsPage.html">Housing</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="index.html">Home</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container" id="bsr-wrapper">
+         <div class='my-5'></div>
+         <h1>Demographics of Housing in Texas and California</h1>
+         <p>The demographics subset of the project will present visualizations of demographics of household owners within California and Texas. These demographics include 
+            race, age, and education background. 
+         </p>
+         <div class='my-5'></div>
+         <!-- visualization 1 -->
+         <h2>Sunburst Chart of Educational Background of Homeowners in Texas and California</h2>
+         <p>The following visualizations present a sunburst chart of the educational background that household owners of Texas and California have:</p>
+         <embed src="sunBurstViz6.html" type="text/html" height = "700" width = "1000" />
+         <div class='my-5'></div>
+         <h2>Insights</h2>
+         <p>From the visualizations above, we are able to make the following insights:</p>
+         <ul>
+            <li>California has more homeowners with a bachelors degree or higher than Texas does.</li>
+            <li>California has more homeowners with a college or associate's degree than Texas does.</li>
+            <li>California has more homeowners with less than a high school degree than Texas does.</li>
+            <li>Texas has more homeowners with a high school degree than California does.</li>
+            <li>California overall has more homeowners who have above a high school degree than Texas does.</li>
+         </ul>
+          <!-- visualization 2 -->
+         <div class='my-5'></div>
+         <h2>Histograms of the Races of Owners and Renters of Households in Texas and California</h2>
+         <p>The following visualizations present histograms for both Texas and California and the races of their household owners and renters:</p>
+         <embed src="histogramCaliforniaViz10.html" type="text/html" height = "700" width = "1000" />
+         <embed src="histogramTexasViz10.html" type="text/html" height = "700" width = "1000" />
+         <div class='my-5'></div>
+         <h2>Insights</h2>
+         <p>From the visualizations above, we are able to make the following insights:</p>
+         <ul>
+            <li>The largest amount of total homes in renters/owners for both state's races was White. In the majority of cases more people owned than rented their home for both states.</li>
+            <li>In both states, Asians had the largest ratio between owners and renters.</li>
+            <li>In the majority of cases more people owned than rented their home for both states.</li>
+            <li>In Texas, a larger number of African Americans made up homes compared to California, but the opposite is true for Asians. California had a greater number of total amount of homes owned/rented by all races compared to Texas.</li>
+            <li>In California, some other race made up the second largest amount of total homes while in Texas it was African Americans.</li>
+         </ul>
+         <!-- Visualization 3 -->
+         <div class='my-5'></div>
+         <h2>Sunburst of Ages of Household Owners in Texas and California</h2>
+         <p>The following visualizations present the number of household owners within a specific age range in Texas and California:</p>
+         <embed src="sunBurstViz7.html" type="text/html" height = "700" width = "1000" />
+         <div class='my-5'></div>
+         <h2>Insights</h2>
+         <p>From the visualizations above, we are able to make the following insights:</p>
+         <ul>
+            <li>Texas has slightly more homeowners under the age of 35 than California does.</li>
+            <li>Both Texas and California have a significant low number of homeowners of the age 85 and over.</li>
+            <li>California has more homeowners of the age 35 and above than Texas does.</li>
+            <li>California overall has more homeowners than Texas does.</li>
+            <li>California and Texas both almost have the same number of homeowners within ages 35 and under to 44.</li>
+         </ul>
+        <!-- Visualization 4 -->
+         <div class='my-5'></div>
+         <h2>Icicle Chart of the Race of Household Owners in California and Texas</h2>
+         <p>The following visualizations present an icicle chart of the races of the household owners in Texas and California:</p>
+         <embed src="boxChartViz9.html" type="text/html" height = "700" width = "1000" />
+         <div class='my-5'></div>
+         <h2>Insights</h2>
+         <p>From the visualizations above, we are able to make the following insights:</p>
+         <ul>
+            <li>In both states the largest race of home owners was white.</li>
+            <li>For both states the lowest race for amount of home owners was Hawaiian and other Pacific Islanders.</li>
+            <li>A comparatively smaller amount of African Americans owned the total amount of homes in California when compared to Texas.</li>
+            <li>In California, the rest of the races combined had more non-white home owners while, Texas white home owners were over 50%.</li>
+            <li>California has over 2 million more total home owners than Texas.</li>
+         </ul>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+   </body>
+</html>
